@@ -6,7 +6,7 @@ public class Main {
         var book1 = new Book("Book1", author1, 2020);
         var book2 = new Book("Book2", author2, 2013);
         var book3 = new Book("Book2", author3, 2000);
-        book3.setPublicationYear(2019);
+        book3.setPublicationYear(2018);
 
         System.out.println(book1.getName()+" "+ book1.getPublicationYear()+ " " + book1.getAuthor().getName() +" " + author1.getSurname());
         System.out.println(book2.getName()+" "+ book2.getPublicationYear()+ " " + book2.getAuthor().getName() + " " + author2.getSurname());
